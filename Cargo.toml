@@ -1,0 +1,15 @@
+[package]
+name = "blazingly-faststack"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+enum_dispatch = "0.3.13"
+serde = { version = "1.0.210", features = ["derive"] }
+env_logger = "0.11.5"
+dotenvy = "0.15.7"
+envy = "0.4.2"
+anyhow = "1.0.89"
+log = "0.4.22"
+serde_json = "1.0.128"
+struct-patch = "0.8.6"
